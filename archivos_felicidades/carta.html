@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi carta</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style2.css">
+</head>
+
+<body>
+    <div class="envlope-wrapper">
+        <div id="envelope" class="close">
+            <div class="front flap"></div>
+            <div class="front pocket"></div>
+            <div class="letter">
+                <div class="words line1"></div>
+                <div class="words line2"></div>
+                <div class="words line3"></div>
+                <div class="words line4"></div>
+            </div>
+            <div class="hearts">
+                <div class="heart a1"></div>
+                <div class="heart a2"></div>
+                <div class="heart a3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="reset">
+        <button id="open">Abrir</button>
+        <button id="reset">Resetear</button>
+        <button id="goBack">Volver</button>
+    </div>
+
+    <div id="card">
+        <div class="side one"></div>
+        <div class="side two">
+            <h2>Feliz día de la madre</h2>
+            <p>Querida madre:</p>
+            <p>En este día tan especial, vengo a felicitarte por tu gran día, no 
+                tengo palabras para describir lo grandiosa madre que eres...
+                pero se muy bien que eres capaz de cualquier cosa que te propongas.
+            </p>
+            <p>¡Te amo mucho!</p>
+            <p> Que hoy tengas un maravilloso día.</p>
+        </div>
+    </div>
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src="./script.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="./script2.js"></script>
+
+
+    <script>
+        document.getElementById('goBack').addEventListener('click', function () {
+            window.history.back();
+        });
+    </script>
+</body>
+
+</html>

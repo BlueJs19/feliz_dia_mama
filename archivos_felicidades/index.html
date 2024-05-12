@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Feliz dia de la madre</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/buttonstyles.css'>
+</head>
+
+<body >
+
+    <h1>Felíz dia de la madre</h1>
+
+    <div class="container">
+        <img src="../imagenes/corazon__img.gif" alt="Cor">
+    </div>
+
+    <footer>
+        <button id="confetti">Toca</button>
+        <button id="carta">Mi carta</button>
+    </footer>
+
+    <script src='./js/main.js' type="module"></script>
+    <script>
+        document.getElementById('carta').addEventListener('click', function() {
+            window.location.href = 'carta.html';
+        });
+    </script>
+
+</body>
+
+</html>
